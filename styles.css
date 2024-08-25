@@ -6,6 +6,11 @@ main {
     flex-wrap: wrap; /* Permite que los elementos se ajusten en una nueva línea si es necesario */
 }
 
+/* Ocultar el botón copiar por defecto */
+#Boton_copiar {
+    display: none; /* Oculta el botón */
+}
+
 /* Estilos específicos para notebooks (ancho igual o mayor a 1024px) */
 @media (min-width: 1024px) {
     main {
