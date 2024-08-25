@@ -7,10 +7,9 @@ const btnCopiar = document.getElementById('Boton_copiar'); // Obtener el botón 
 
 // Función para encriptar el texto
 function encriptar() {
-  // Convertir a minúsculas y filtrar caracteres no permitidos
   let texto = textarea.value.toLowerCase();
 
-  // Reemplazar caracteres especiales y la letra "ñ"
+  // Verificar caracteres especiales y la letra "ñ"
   if (/[^a-z\s]/.test(texto) || texto.includes('ñ')) {
     alert('No se puede usar caracteres especiales ni la letra "ñ".');
     return;
@@ -39,10 +38,9 @@ function encriptar() {
 
 // Función para desencriptar el texto
 function desencriptar() {
-  // Convertir a minúsculas y filtrar caracteres no permitidos
   let texto = textarea.value.toLowerCase();
 
-  // Reemplazar caracteres especiales y la letra "ñ"
+  // Verificar caracteres especiales y la letra "ñ"
   if (/[^a-z\s]/.test(texto) || texto.includes('ñ')) {
     alert('No se puede usar caracteres especiales ni la letra "ñ".');
     return;
