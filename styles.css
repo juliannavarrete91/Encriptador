@@ -4,10 +4,10 @@ main {
     gap: 20px;     /* Espacio entre los elementos del main */
     padding: 20px; /* Espacio interno del main */
     flex-wrap: wrap; /* Permite que los elementos se ajusten en una nueva línea si es necesario */
+    height: 50%; /* 50% de la altura del contenedor padre */
 }
 
-#Area_imput, #Area_output {
-    height: 50%; /* 50% de la altura del contenedor padre */
+#Area_imput, #Area_output {   
 }
 
 /* Ocultar el botón copiar por defecto */
