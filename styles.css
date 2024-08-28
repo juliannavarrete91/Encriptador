@@ -6,6 +6,10 @@ main {
     flex-wrap: wrap; /* Permite que los elementos se ajusten en una nueva línea si es necesario */
 }
 
+#Area_imput, #Area_output {
+    height: 50%; /* 50% de la altura del contenedor padre */
+}
+
 /* Ocultar el botón copiar por defecto */
 #Boton_copiar {
     display: none; /* Oculta el botón */
